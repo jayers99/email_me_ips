@@ -23,4 +23,6 @@ touch tests/__init__.py tests/test_main.py
 touch docs/README.md
 
 # Create setup.py and Pipfile in the main directory
-touch setup.py Pipfile
+touch setup.py
+
+pipenv shell
