@@ -1,0 +1,14 @@
+From: sender@example.com
+To: recipient@example.com
+Subject: Test Email with IP Address
+Date: Mon, 1 Jan 2023 12:00:00 +0000
+Message-ID: <test-email@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+Hello,
+
+This is a test email. Here is a random IP address: 192.168.1.1
+
+Best regards,
+Test Sender
