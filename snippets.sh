@@ -25,4 +25,44 @@ touch docs/README.md
 # Create setup.py and Pipfile in the main directory
 touch setup.py
 
-pipenv shell
+PROJECT_NAME="email_me_ips"
+
+# Populate setup.py with basic setup
+cat <<EOL > setup.py
+from setuptools import setup, find_packages
+
+setup(
+    name='$PROJECT_NAME',
+    version='0.1.0',
+    packages=find_packages(where='src'),
+    package_dir={'': 'src'},
+    install_requires=[
+        # Add your dependencies here
+    ],
+    entry_points={
+        'console_scripts': [
+            # Add your console scripts here
+        ],
+    },
+)
+EOL
+
+cat <<EOL > docs/README.md
+# $PROJECT_NAME
+
+## Description
+
+A brief description of your project.
+
+## Installation
+
+\`\`\`sh
+pip install .
+\`\`\`
+
+## Usage
+
+\`\`\`sh
+# Example usage
+\`\`\`
+EOL
