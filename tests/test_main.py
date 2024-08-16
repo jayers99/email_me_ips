@@ -1,5 +1,5 @@
 import unittest
-from src.main import main
+from src.main import main, get_emls
 
 class TestMain(unittest.TestCase):
 	def test_main(self):
@@ -12,7 +12,12 @@ class TestMain(unittest.TestCase):
 		main()
 		sys.stdout = sys.__stdout__
 
-		self.assertEqual(captured_output.getvalue().strip(), "Hello, this is your CLI tool!")
+		self.assertEqual(captured_output.getvalue().strip(), "Extracting IP addresses from emails...")
+
+	def test_get_emls(self):
+		# Test the get_emls function
+		expected_emails = ["email1@example.com", "email2@example.com"]
+		self.assertEqual(get_emls(), expected_emails)
 
 if __name__ == "__main__":
 	unittest.main()
