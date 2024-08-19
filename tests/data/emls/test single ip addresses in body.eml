@@ -1,0 +1,32 @@
+MIME-Version: 1.0
+Date: Mon, 19 Aug 2024 11:16:55 -0700
+Message-ID: <CAOsBvtv8t0b9VBNtKnLP21f6STaFkQM50=0PW_DJJnJpDuxL3Q@mail.gmail.com>
+Subject: test single ip addresses in body
+From: John Ayers <jayers99@gmail.com>
+To: John Ayers <jayers99@gmail.com>
+Content-Type: multipart/alternative; boundary="000000000000603f5406200d509d"
+
+--000000000000603f5406200d509d
+Content-Type: text/plain; charset="UTF-8"
+
+192.168.0.102
+test of blank line
+
+10.0.101.4/32, 10.101.0.42
+10.101.0.16/31
+line with just text
+line with text and ip address 10.100.0.16
+line with text and ip cidr 172.32.16.33/29
+
+--000000000000603f5406200d509d
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">192.168.0.102<div>test of blank line</div><div><br></div><=
+div><a href=3D"http://10.0.101.4/32">10.0.101.4/32</a></div><div><a href=3D=
+"http://10.101.0.16/31">10.101.0.16/31</a></div><div>line with just text</d=
+iv><div>line with text and ip address 10.100.0.16</div><div>line with text =
+and ip cidr <a href=3D"http://172.32.16.33/29">172.32.16.33/29</a></div><di=
+v><br></div></div>
+
+--000000000000603f5406200d509d--

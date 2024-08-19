@@ -1,0 +1,69 @@
+MIME-Version: 1.0
+Date: Mon, 19 Aug 2024 11:25:27 -0700
+References: <CAOsBvtv8t0b9VBNtKnLP21f6STaFkQM50=0PW_DJJnJpDuxL3Q@mail.gmail.com>
+	<CAOsBvtur_1PrV04Sv15ZubnK9j4KyofiHEYjnKSf=VFnzQm-Dw@mail.gmail.com>
+In-Reply-To: <CAOsBvtur_1PrV04Sv15ZubnK9j4KyofiHEYjnKSf=VFnzQm-Dw@mail.gmail.com>
+Message-ID: <CAOsBvttEhD4NxChJjO-6gy-28d54_3J1ZNPXc8FaNVyKcgoepQ@mail.gmail.com>
+Subject: Re: test single ip addresses in body
+From: John Ayers <jayers99@gmail.com>
+To: John Ayers <jayers99@gmail.com>
+Content-Type: multipart/alternative; boundary="000000000000eef12106200d6e93"
+
+--000000000000eef12106200d6e93
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+what if someone replies wanting to add some ip addresses
+
+10.101.0.100/32
+10.101.0.99
+
+10.101.0.1/29
+
+On Mon, Aug 19, 2024 at 11:23=E2=80=AFAM John Ayers <jayers99@gmail.com> wr=
+ote:
+
+> what if someone replies with no ip address in the body?
+>
+> On Mon, Aug 19, 2024 at 11:16=E2=80=AFAM John Ayers <jayers99@gmail.com> =
+wrote:
+>
+>> 192.168.0.102
+>> test of blank line
+>>
+>> 10.0.101.4/32
+>> 10.101.0.16/31
+>> line with just text
+>> line with text and ip address 10.100.0.16
+>> line with text and ip cidr 172.32.16.33/29
+>>
+>>
+
+--000000000000eef12106200d6e93
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">what if someone replies wanting to add some ip addresses<d=
+iv><br></div><div><a href=3D"http://10.101.0.100/32">10.101.0.100/32</a></d=
+iv><div>10.101.0.99</div><div><br></div><div><a href=3D"http://10.101.0.1/2=
+9">10.101.0.1/29</a></div></div><br><div class=3D"gmail_quote"><div dir=3D"=
+ltr" class=3D"gmail_attr">On Mon, Aug 19, 2024 at 11:23=E2=80=AFAM John Aye=
+rs &lt;<a href=3D"mailto:jayers99@gmail.com">jayers99@gmail.com</a>&gt; wro=
+te:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px =
+0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex"><div dir=3D"=
+ltr">what if someone replies with=C2=A0no ip address in the body?</div><br>=
+<div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On Mon, Au=
+g 19, 2024 at 11:16=E2=80=AFAM John Ayers &lt;<a href=3D"mailto:jayers99@gm=
+ail.com" target=3D"_blank">jayers99@gmail.com</a>&gt; wrote:<br></div><bloc=
+kquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left:=
+1px solid rgb(204,204,204);padding-left:1ex"><div dir=3D"ltr">192.168.0.102=
+<div>test of blank line</div><div><br></div><div><a href=3D"http://10.0.101=
+.4/32" target=3D"_blank">10.0.101.4/32</a></div><div><a href=3D"http://10.1=
+01.0.16/31" target=3D"_blank">10.101.0.16/31</a></div><div>line with just t=
+ext</div><div>line with text and ip address 10.100.0.16</div><div>line with=
+ text and ip cidr <a href=3D"http://172.32.16.33/29" target=3D"_blank">172.=
+32.16.33/29</a></div><div><br></div></div>
+</blockquote></div>
+</blockquote></div>
+
+--000000000000eef12106200d6e93--
